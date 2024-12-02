@@ -35,8 +35,8 @@ The application will be available at http://localhost:8501 in your web browser.
 ## Using the System
 
 1. Choose your input method:
-  1. Search by title: Type a movie name and select from matching results
-  2. Enter Movie ID: Directly input a MovieLens movie ID
+   * Search by title: Type a movie name and select from matching results
+   * Enter Movie ID: Directly input a MovieLens movie ID
 2. Adjust the number of recommendations using the slider
 3. Click "Get Recommendations" to see similar movies
 
@@ -66,14 +66,14 @@ The system implements LSH with the following key features:
    * Normalizes feature vectors for consistent distance calculations
 
 3. LSH Implementation:
-  * Uses multiple hash tables for better recall
-  * Implements bit-flipping for neighboring bucket search
-  * Uses adaptive thresholding for optimal bucket distribution
+   * Uses multiple hash tables for better recall
+   * Implements bit-flipping for neighboring bucket search
+   * Uses adaptive thresholding for optimal bucket distribution
 
 4. Recommendation Generation:
-  * Collects candidates from multiple hash tables
-  * Computes exact distances for final ranking
-  * Provides genre-based fallback recommendations
+   * Collects candidates from multiple hash tables
+   * Computes exact distances for final ranking
+   * Provides genre-based fallback recommendations
 
 
 
