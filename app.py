@@ -5,7 +5,7 @@ st.title("Movie Recommendation System")
 @st.cache_resource
 def load_recommender():
     recommender = MovieRecommender()
-    recommender.fit('ml-latest-small/movies.csv')
+    recommender.fit('movies.csv')
     return recommender
 
 recommender = load_recommender()
