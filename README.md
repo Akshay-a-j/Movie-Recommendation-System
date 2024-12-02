@@ -62,18 +62,18 @@ These parameters provide a good balance between accuracy and performance for the
 The system implements LSH with the following key features:
 
 1. Feature Creation:
-  1. Combines genre one-hot encoding with TF-IDF title features
-  2. Normalizes feature vectors for consistent distance calculations
+   * Combines genre one-hot encoding with TF-IDF title features
+   * Normalizes feature vectors for consistent distance calculations
 
 3. LSH Implementation:
-  1. Uses multiple hash tables for better recall
-  2. Implements bit-flipping for neighboring bucket search
-  3. Uses adaptive thresholding for optimal bucket distribution
+  * Uses multiple hash tables for better recall
+  * Implements bit-flipping for neighboring bucket search
+  * Uses adaptive thresholding for optimal bucket distribution
 
 4. Recommendation Generation:
-  1. Collects candidates from multiple hash tables
-  2. Computes exact distances for final ranking
-  3. Provides genre-based fallback recommendations
+  * Collects candidates from multiple hash tables
+  * Computes exact distances for final ranking
+  * Provides genre-based fallback recommendations
 
 
 
