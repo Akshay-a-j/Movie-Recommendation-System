@@ -17,6 +17,23 @@ The recommendation system uses:
 
 ## Requirements
 First, ensure you have Python 3.8+ installed on your system. Then install the required packages:
+```
+pip install -r requirements.txt
+```
+## Dataset
+This project uses the MovieLens Small Dataset. To get started:
+
+1. Download the dataset:
+```
+wget https://files.grouplens.org/datasets/movielens/ml-latest-small.zip
+```
+2. Unzip the dataset:
+```
+unzip ml-latest-small.zip
+```
+This system specifically uses the movies.csv file from this dataset.
+
+## Running the Application
 1. Clone the repository:
 ```
 git clone https://github.com/yourusername/movie-recommendation-lsh.git
